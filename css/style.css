@@ -494,8 +494,9 @@ body{
     background-size: cover;
     padding-top: 0;
     background-attachment: fixed;
-
 }
+
+
 .intro_title2{
     font-weight: 700;
     font-size: 30px;
@@ -667,4 +668,74 @@ body{
     position: absolute;
 }
 
+/*авторизация / вход*/
 
+.form2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,.7);
+}
+
+.form h1 {
+    margin: 30px 100px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.input-form {
+    margin: 15px 40px;
+    text-align: center;
+}
+
+.input-form input {
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    background: none;    
+    outline: none;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
+    border: 1px solid #0fc3f5;
+}
+
+.input-form input[type="submit"] {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background: #313336;
+    transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+    background: #191b1f;
+}
+
+.form a {
+    display: block;
+    padding: 0 0 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.form a:hover {
+    color: #191b1f;
+}
+
+.form_input._error{
+    box-shadow: 0 0 15px red;
+}
+.input-form._error{
+    box-shadow: 0 0 15px red;
+}
